@@ -42,5 +42,6 @@ public class NotificationService {
         if (response.getStatusCode() != HttpStatus.OK) {
             System.out.println("\nCannot send notification to the message producer. \n Notification: \n" + message + "\n Response: \n" + response);
         }
+        System.out.println("\nResponse\n"+response);
     }
 }
